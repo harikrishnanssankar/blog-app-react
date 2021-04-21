@@ -1,0 +1,48 @@
+.blog-details h2 {
+    font-size: 20px;
+    color: #f1356d;
+    margin-bottom: 10px;
+}
+
+.blog-details div {
+    margin: 20px 0;
+}
+
+/* .blog-details button {
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+} */
+
+.article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn-delete {
+    background-color: #ff0044;
+    padding: 10px 20px;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 11px;
+    width: 9rem;
+    position: fixed;
+    bottom: 70px;
+    right: 100px;
+}
+
+.btn-delete:hover {
+    border-radius: 34px;
+    background: #ce1345;
+    box-shadow: 8px 8px 15px #9b9b9b, -8px -8px 15px #595959;
+    
+}
+
+.btn-delete:active {
+    background-color: #ff0044;
+}
